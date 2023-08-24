@@ -1,7 +1,7 @@
 # Image Editor Application
 
-![GitHub](https://img.shields.io/github/license/yourusername/image-editor)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/image-editor)
+![GitHub](https://img.shields.io/github/license/luckmanqasim/image-editor)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/luckmanqasim/image-editor)
 
 The Image Editor Application is a Python GUI program built using the Tkinter library. It allows users to load images, apply various filters and enhancements, and save their edited images. This README provides an overview of the application, how to use it, and how to contribute.
 
@@ -28,6 +28,7 @@ You can install the required packages using pip:
 
 ```bash
 pip install pillow requests
+```
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
