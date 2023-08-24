@@ -4,7 +4,7 @@
 
 The Image Editor Application is a Python GUI program built using the Tkinter library. It allows users to load images, apply various filters and enhancements, and save their edited images. This README provides an overview of the application, how to use it, and how to contribute.
 
-![Application Screenshot](screenshot.jpg?raw=true)
+![Application Screenshot](screenshot.png?raw=true)
 
 ## Features
 
@@ -30,8 +30,8 @@ pip install pillow requests
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-This application was built using Tkinter for the GUI.
-Pixabay integration powered by the Pixabay API.
+This application was built using [Tkinter](https://docs.python.org/3/library/tkinter.html) and [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) for the GUI.
+Pixabay integration powered by the [Pixabay API](https://pixabay.com/api/docs/).
