@@ -401,7 +401,7 @@ class App(customtkinter.CTk):
 
         else:
             # get the api key from .env and search pixabay for the query
-            px = pixabay.core(os.getenv('api_key'))
+            px = pixabay.core(os.getenv('PIXABAY_API_KEY'))
             results = px.query(self.image_query)
 
             dir_path = os.path.join('cache_data', self.image_query)
