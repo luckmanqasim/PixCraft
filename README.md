@@ -15,7 +15,7 @@ The Image Editor Application is a Python GUI program built using the Tkinter lib
 
 ### 2. Image Editing
 
-Filters
+#### Filters
 
 **Blur:** Apply a blur filter to the image.
 **Contour:** Add a contour effect to the image.
@@ -25,13 +25,14 @@ Filters
 **Sharpen:** Improve image sharpness.
 **Smooth:** Apply a smoothing effect.
 
-Colors
+#### Colors
 
 **Black and White:** Convert the image to grayscale.
 **Invert:** Invert the colors of the image.
 **Equalize:** Adjust the color balance for optimal contrast.
 
-Transformations
+#### Transformations
+
 **Flip:** Flip the image horizontally.
 **Mirror:** Create a mirror image effect.
 
