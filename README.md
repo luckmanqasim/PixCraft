@@ -7,23 +7,33 @@ The Image Editor Application is a Python GUI program built using the Tkinter lib
 
 ![Application Screenshot](screenshot.png?raw=true)
 
+
 ## Features
+
 
 ### 1. Image Loading
 
 **Import Image:** Users can import images from their local storage. Supported file formats include PNG and JPG.
+
 
 ### 2. Image Editing
 
 #### Filters
 
 **Blur:** Apply a blur filter to the image.
+
 **Contour:** Add a contour effect to the image.
+
 **Detail:** Enhance fine details in the image.
+
 **Edge Enhance:** Highlight edges in the image.
+
 **Emboss:** Create an embossed appearance.
+
 **Sharpen:** Improve image sharpness.
+
 **Smooth:** Apply a smoothing effect.
+
 
 #### Colors
 
@@ -31,38 +41,53 @@ The Image Editor Application is a Python GUI program built using the Tkinter lib
 **Invert:** Invert the colors of the image.
 **Equalize:** Adjust the color balance for optimal contrast.
 
+
 #### Transformations
 
 **Flip:** Flip the image horizontally.
 **Mirror:** Create a mirror image effect.
 
+
 ### 3. Image Enhancement
 
 **Box Blur:** Adjust the intensity of the box blur effect.
+
 **Gaussian Blur:** Control the strength of the Gaussian blur.
+
 **Color:** Modify the color saturation of the image.
+
 **Contrast:** Enhance or reduce image contrast.
+
 **Brightness:** Adjust image brightness.
+
 **Sharpness:** Improve image sharpness.
+
 
 ### 4. Pixabay Integration
 
 **Search:** Search for images on Pixabay using keywords.
+
 **Import:** Import Pixabay images directly into the editor for editing.
+
 
 ### 5. User Interface Customization
 
 **Appearance Mode:** Choose between Light, Dark, or System theme modes.
+
 **UI Scaling:** Adjust the UI scaling for optimal viewing.
+
 
 ### 6. Undo Functionality
 
 **Undo:** Revert to previous image states by pressing Ctrl + Z.
 
+
 ### 7. Image Saving
 
 **Save Image:** Save edited images in PNG or JPG format.
+
 **Save Image As:** Choose a new file name and location for saving images.
+
 
 ## Cache System
 
@@ -77,6 +102,7 @@ The Image Editor App includes a cache system implemented in the cache.py module.
 **Cache Expiration:** The cache system automatically removes old data from the JSON file if it's older than 24 hours. This helps maintain a clean and up-to-date cache.
 
 **Usage in the App:** The Image Editor App uses the cache system to store and retrieve Pixabay image data, optimizing the search and import process.
+
 
 ## Getting Started
 
