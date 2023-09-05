@@ -44,6 +44,7 @@ class ImageCache:
     def retrieve_data(self, query):
 
             try:
+                # Look for the time stamp of the query
                 with open(self._cache_file, 'r') as f:
                     cache_data = json.load(f)
                     timestamp = datetime.fromisoformat(cache_data[query]['timestamp'])
@@ -69,6 +70,7 @@ class ImageCache:
 
             current_time = datetime.now()
 
+            # Look for the timestamp of the data
             for key, value in list(data.items()):
                 timestamp = datetime.fromisoformat(value['timestamp'])
 
@@ -82,6 +84,7 @@ class ImageCache:
                     os.removedirs(key_dir)
                     del data[key]
             
+            # save the new modified data into the json file
             with open(self._cache_file, 'w') as f:
                 json.dump(data, f, indent=4)
 
