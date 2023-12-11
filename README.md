@@ -1,9 +1,9 @@
-# Image Editor Application
+# PixCraft
 
-![GitHub](https://img.shields.io/github/license/luckmanqasim/image-editor)
+![GitHub](https://img.shields.io/github/license/luckmanqasim/PixCraft)
 
-The Image Editor App is a Python-based desktop application that allows users to load, edit, and save images. It provides a user-friendly graphical interface for performing various image processing tasks, such as applying filters, adjusting colors, and enhancing image quality.
-The Image Editor Application is a Python GUI program built using the Tkinter library. It allows users to load images, apply various filters and enhancements, and save their edited images. This README provides an overview of the application, how to use it, and how to contribute.
+PixCraft is a Python-based desktop application that allows users to load, edit, and save images. It provides a user-friendly graphical interface for performing various image processing tasks, such as applying filters, adjusting colors, and enhancing image quality.
+PixCraft is a Python GUI program built using the Tkinter library. It allows users to load images, apply various filters and enhancements, and save their edited images. This README provides an overview of the application, how to use it, and how to contribute.
 
 ![Application Screenshot](screenshot.png?raw=true)
 
@@ -91,7 +91,7 @@ The Image Editor Application is a Python GUI program built using the Tkinter lib
 
 ## Cache System
 
-The Image Editor App includes a cache system implemented in the cache.py module. This cache system helps optimize the application's performance and manage downloaded images efficiently. Here's how it works:
+PixCraft includes a cache system implemented in the cache.py module. This cache system helps optimize the application's performance and manage downloaded images efficiently. Here's how it works:
 
 **Initialization:** The cache system is initiated when the Image Editor App starts. It sets up a cache directory and a JSON file to store data.
 
@@ -108,7 +108,7 @@ The Image Editor App includes a cache system implemented in the cache.py module.
 
 ### Prerequisites
 
-Before running the Image Editor Application, make sure you have the following dependencies installed:
+Before running PixCraft, make sure you have the following dependencies installed:
 
 - Python (>=3.6)
 - tkinter (usually included with Python, no additional installation required)
@@ -122,13 +122,13 @@ Before running the Image Editor Application, make sure you have the following de
 1. Clone the GitHub repository:
 
 ```bash
-git clone https://github.com/your-username/image-editor.git
+git clone https://github.com/luckmanqasim/PixCraft.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd image-editor
+cd PixCraft
 ```
 
 3. Install the required dependencies:
